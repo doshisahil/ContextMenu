@@ -1,0 +1,36 @@
+// ContextMenu.idl : IDL source for ContextMenu
+//
+
+// This file will be processed by the MIDL tool to
+// produce the type library (ContextMenu.tlb) and marshalling code.
+
+import "oaidl.idl";
+import "ocidl.idl";
+
+[
+	object,
+	uuid(d848dde4-610d-4f6e-af7f-e3532071b301),
+	dual,
+	nonextensible,
+	pointer_default(unique)
+]
+interface IDynamicContextMenu : IDispatch
+{
+};
+[
+	uuid(ba7ffb13-09fd-42e1-a91d-f36ee657ef9c),
+	version(1.0),
+]
+library ContextMenuExtensionLib
+{
+	importlib("stdole2.tlb");
+	[
+		uuid(486321f1-5790-4e02-8a38-7edc88638390)
+	]
+	coclass DynamicContextMenu
+	{
+		[default] interface IDynamicContextMenu;
+	};
+};
+
+import "shobjidl.idl";

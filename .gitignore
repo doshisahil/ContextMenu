@@ -3,3 +3,11 @@
 ################################################################################
 
 /Platform/win/ContextMenuHandler/x64/Debug
+/.vs
+/Platform/win/ContextMenuHandler/.vs/ContextMenuExtension/v16
+*.aps
+/Platform/win/ContextMenuHandler/ContextMenu_i.h
+/Platform/win/ContextMenuHandler/ContextMenu_i.c
+/Platform/win/ContextMenuHandler/ContextMenu_p.c
+/Platform/win/ContextMenuHandler/dlldata.c
+/Platform/win/ContextMenuHandler/ContextMenu.vcxproj.user
